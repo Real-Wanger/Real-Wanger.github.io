@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://wanger.cc/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 28 Dec 2025 18:15:47 +0800</lastBuildDate><atom:link href="https://wanger.cc/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>https://wanger.cc/posts/my-first-post/</link><pubDate>Sun, 28 Dec 2025 18:15:47 +0800</pubDate><guid>https://wanger.cc/posts/my-first-post/</guid><description>&lt;h1 id="我的第一篇博客开启技术写作之旅"&gt;我的第一篇博客：开启技术写作之旅&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wanger's Space</title><link>https://wanger.cc/</link><description>Recent content on Wanger's Space</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 28 Dec 2025 19:40:20 +0800</lastBuildDate><atom:link href="https://wanger.cc/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Github Setup Guide</title><link>https://wanger.cc/posts/hugo-github-setup-guide/</link><pubDate>Sun, 28 Dec 2025 19:40:20 +0800</pubDate><guid>https://wanger.cc/posts/hugo-github-setup-guide/</guid><description>&lt;hr&gt;
+&lt;h2 id="tags-hugo-github-折腾记录"&gt;title: &amp;ldquo;从零开始：我的 Hugo + GitHub 博客搭建踩坑记&amp;rdquo;
+date: 2025-12-28
+draft: false
+tags: [&amp;ldquo;Hugo&amp;rdquo;, &amp;ldquo;GitHub&amp;rdquo;, &amp;ldquo;折腾记录&amp;rdquo;]&lt;/h2&gt;
+&lt;p&gt;今天正式把博客搭好了！虽然中间遇到了不少“红字”报错，但解决问题的过程真的很有成就感。&lt;/p&gt;
+&lt;h2 id="遇到的坑与解决方法"&gt;遇到的坑与解决方法&lt;/h2&gt;
+&lt;h3 id="1-git-push-报错token-权限"&gt;1. Git Push 报错（Token 权限）&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;现象&lt;/strong&gt;：输入账号密码后报错，提示不支持密码认证。
+&lt;strong&gt;解决&lt;/strong&gt;：GitHub 现在需要使用 &lt;strong&gt;Personal Access Token (PAT)&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;关键点：一定要勾选 &lt;code&gt;repo&lt;/code&gt; 和 &lt;code&gt;workflow&lt;/code&gt; 权限，否则没法上传自动化脚本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-自定义域名消失术"&gt;2. 自定义域名消失术&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;现象&lt;/strong&gt;：在 GitHub 后台设好了域名，一推新文章域名就没了。
+&lt;strong&gt;解决&lt;/strong&gt;：在本地 &lt;code&gt;static/&lt;/code&gt; 文件夹下创建 &lt;code&gt;CNAME&lt;/code&gt; 文件，写上自己的域名。这样每次自动化部署都会带上它。&lt;/p&gt;
+&lt;h3 id="3-访问-404-报错"&gt;3. 访问 404 报错&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;现象&lt;/strong&gt;：手机能开，电脑打不开。
+&lt;strong&gt;解决&lt;/strong&gt;：这是“浏览器缓存”的锅。清理缓存或者换个浏览器就好了。&lt;/p&gt;
+&lt;h3 id="4-样式乱码"&gt;4. 样式乱码&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;现象&lt;/strong&gt;：网页只有文字，没有排版。
+&lt;strong&gt;解决&lt;/strong&gt;：修改 &lt;code&gt;hugo.toml&lt;/code&gt; 里的 &lt;code&gt;baseURL&lt;/code&gt; 为自己的真实域名 &lt;code&gt;https://wanger.cc/&lt;/code&gt;。&lt;/p&gt;
+&lt;h2 id="总结"&gt;总结&lt;/h2&gt;
+&lt;p&gt;搭建博客不只是为了写字，更是为了学会一套“自动化发布”的工作流。感谢老师的指导，下一步准备研究下如何优化 Archie 主题！&lt;/p&gt;</description></item><item><title>My First Post</title><link>https://wanger.cc/posts/my-first-post/</link><pubDate>Sun, 28 Dec 2025 18:15:47 +0800</pubDate><guid>https://wanger.cc/posts/my-first-post/</guid><description>&lt;h1 id="我的第一篇博客开启技术写作之旅"&gt;我的第一篇博客：开启技术写作之旅&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;发布时间：2025-12-28 | 作者：我 | 标签：新手入门、博客记录&lt;/p&gt;
 &lt;/blockquote&gt;
